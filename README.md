@@ -26,6 +26,3 @@ Este repositorio contiene el código fuente y los archivos necesarios para imple
 2. Descarga los archivos JSON de películas y series proporcionados en los materiales adjuntos y guárdalos en la misma carpeta que el código fuente.
 3. Abre el archivo HTML en un navegador web.
 
-**Consejos:**
-- Consulta el cuestionario proporcionado junto con el desafío para obtener una guía paso a paso.
-- ¡Disfruta del proceso de programación y enfrenta este desafío con alegría! Recuerda que estás demostrando tu capacidad para programar de manera autónoma.
