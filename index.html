@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Peliculas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Buscrador de Peliculas</h1>
+    <hr>
+    <div class="bloque">
+        Seleccione una opción: 
+        <select id="selePeliculas">
+            <option value="peliculas.json">Peliculas</option>
+            <option value="series.json">Series</option>
+        </select>
+    </div>
+
+    <div  class="bloque">
+        <input type="search" id="buscadorPeliculas" placeholder="Ingrse para buscar...">
+        <button type="button" onclick="busqueda()">Buscar</button>
+    </div>
+
+    <div class="bloque">
+        <ul id="listaPeliculas"></ul>
+    </div>
+
+</body>
+<script src="codigo.js"></script>
+</html>
